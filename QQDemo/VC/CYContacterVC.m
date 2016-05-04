@@ -10,7 +10,6 @@
 #import "SmallTools.h"
 #import "MenuButton.h"
 #import "UIViewController+MMDrawerController.h"
-#import "ContacterListModel.h"
 #import "ContacterCell.h"
 #import "DirectoryGroup.h"
 #import "HeadView.h"

@@ -13,16 +13,17 @@
 		A605F7E81CCF8743003C37C0 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A605F7E71CCF8743003C37C0 /* MMExampleDrawerVisualStateManager.m */; };
 		A6440ED91CD83B3C00750D64 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6440ED81CD83B3C00750D64 /* HeadView.m */; };
 		A64986261CCEF1AD008C3B10 /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A64986251CCEF1AD008C3B10 /* TransparentView.m */; };
+		A64DB1641CD9AE04004FD2A4 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DB1631CD9AE04004FD2A4 /* NewsCell.m */; };
+		A64DB1671CD9AE1E004FD2A4 /* UIView+WHC_ViewProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DB1661CD9AE1E004FD2A4 /* UIView+WHC_ViewProperty.m */; };
+		A64DB16D1CD9AE45004FD2A4 /* ContacterListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DB16C1CD9AE45004FD2A4 /* ContacterListModel.m */; };
+		A64DB1721CD9AE5C004FD2A4 /* SmallTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DB16F1CD9AE5C004FD2A4 /* SmallTools.m */; };
+		A64DB1731CD9AE5C004FD2A4 /* UIView+SHCZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DB1711CD9AE5C004FD2A4 /* UIView+SHCZExt.m */; };
+		A64DB1761CD9AF0E004FD2A4 /* CYContacterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DB1751CD9AF0E004FD2A4 /* CYContacterVC.m */; };
 		A6530D581CD1B2F700374EB8 /* NewsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6530D571CD1B2F700374EB8 /* NewsListModel.m */; };
-		A6530D5B1CD1B71600374EB8 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6530D5A1CD1B71600374EB8 /* NewsCell.m */; };
 		A6530D611CD1D87100374EB8 /* WHC_BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6530D601CD1D87100374EB8 /* WHC_BadgeView.m */; };
-		A6530D671CD1D9F000374EB8 /* UIView+WHC_ViewProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A6530D661CD1D9F000374EB8 /* UIView+WHC_ViewProperty.m */; };
-		A66230FC1CCDB2670010EDBD /* SmallTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A66230FB1CCDB2670010EDBD /* SmallTools.m */; };
 		A66231021CCDB92E0010EDBD /* CYMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66231011CCDB92E0010EDBD /* CYMainController.m */; };
-		A66231051CCDBA9D0010EDBD /* UIView+SHCZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A66231041CCDBA9D0010EDBD /* UIView+SHCZExt.m */; };
 		A662314C1CCE25910010EDBD /* CYNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A662314B1CCE25910010EDBD /* CYNewsVC.m */; };
 		A662778E1CD7827E00E70D05 /* ContacterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A662778D1CD7827E00E70D05 /* ContacterList.plist */; };
-		A66277941CD78F5000E70D05 /* ContacterListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A66277931CD78F5000E70D05 /* ContacterListModel.m */; };
 		A66277991CD79E4700E70D05 /* ContacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A66277981CD79E4700E70D05 /* ContacterCell.m */; };
 		A671E0D81CCD038B00B0F047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A671E0D71CCD038B00B0F047 /* main.m */; };
 		A671E0DB1CCD038B00B0F047 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A671E0DA1CCD038B00B0F047 /* AppDelegate.m */; };
@@ -35,7 +36,6 @@
 		A6734FBD1CD7A392000FDFFD /* ContacterImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6734FBC1CD7A392000FDFFD /* ContacterImage.bundle */; };
 		A6734FC01CD7AA30000FDFFD /* DirectoryGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A6734FBF1CD7AA30000FDFFD /* DirectoryGroup.m */; };
 		A679B54C1CD0554300302EBD /* CYDynamicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A679B54B1CD0554300302EBD /* CYDynamicVC.m */; };
-		A679B5501CD0559700302EBD /* CYContacterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A679B54F1CD0559700302EBD /* CYContacterVC.m */; };
 		A679B5561CD07ED700302EBD /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A679B5551CD07ED700302EBD /* MenuButton.m */; };
 		A679B5581CD0FD5300302EBD /* NewsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A679B5571CD0FD5300302EBD /* NewsList.plist */; };
 /* End PBXBuildFile section */
@@ -71,25 +71,27 @@
 		A6440ED81CD83B3C00750D64 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeadView.m; path = views/HeadView.m; sourceTree = "<group>"; };
 		A64986241CCEF1AD008C3B10 /* TransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransparentView.h; path = views/TransparentView.h; sourceTree = "<group>"; };
 		A64986251CCEF1AD008C3B10 /* TransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransparentView.m; path = views/TransparentView.m; sourceTree = "<group>"; };
+		A64DB1621CD9AE04004FD2A4 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsCell.h; path = views/NewsCell.h; sourceTree = "<group>"; };
+		A64DB1631CD9AE04004FD2A4 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCell.m; path = views/NewsCell.m; sourceTree = "<group>"; };
+		A64DB1651CD9AE1E004FD2A4 /* UIView+WHC_ViewProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WHC_ViewProperty.h"; path = "Other/UIView+WHC_ViewProperty.h"; sourceTree = "<group>"; };
+		A64DB1661CD9AE1E004FD2A4 /* UIView+WHC_ViewProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WHC_ViewProperty.m"; path = "Other/UIView+WHC_ViewProperty.m"; sourceTree = "<group>"; };
+		A64DB16B1CD9AE45004FD2A4 /* ContacterListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContacterListModel.h; path = Model/ContacterListModel.h; sourceTree = "<group>"; };
+		A64DB16C1CD9AE45004FD2A4 /* ContacterListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContacterListModel.m; path = Model/ContacterListModel.m; sourceTree = "<group>"; };
+		A64DB16E1CD9AE5C004FD2A4 /* SmallTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallTools.h; sourceTree = "<group>"; };
+		A64DB16F1CD9AE5C004FD2A4 /* SmallTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallTools.m; sourceTree = "<group>"; };
+		A64DB1701CD9AE5C004FD2A4 /* UIView+SHCZExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SHCZExt.h"; sourceTree = "<group>"; };
+		A64DB1711CD9AE5C004FD2A4 /* UIView+SHCZExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SHCZExt.m"; sourceTree = "<group>"; };
+		A64DB1741CD9AF0E004FD2A4 /* CYContacterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYContacterVC.h; path = VC/CYContacterVC.h; sourceTree = "<group>"; };
+		A64DB1751CD9AF0E004FD2A4 /* CYContacterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYContacterVC.m; path = VC/CYContacterVC.m; sourceTree = "<group>"; };
 		A6530D561CD1B2F700374EB8 /* NewsListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsListModel.h; path = Model/NewsListModel.h; sourceTree = "<group>"; };
 		A6530D571CD1B2F700374EB8 /* NewsListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsListModel.m; path = Model/NewsListModel.m; sourceTree = "<group>"; };
-		A6530D591CD1B71600374EB8 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
-		A6530D5A1CD1B71600374EB8 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 		A6530D5F1CD1D87100374EB8 /* WHC_BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHC_BadgeView.h; path = views/WHC_BadgeView.h; sourceTree = "<group>"; };
 		A6530D601CD1D87100374EB8 /* WHC_BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHC_BadgeView.m; path = views/WHC_BadgeView.m; sourceTree = "<group>"; };
-		A6530D651CD1D9F000374EB8 /* UIView+WHC_ViewProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_ViewProperty.h"; sourceTree = "<group>"; };
-		A6530D661CD1D9F000374EB8 /* UIView+WHC_ViewProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_ViewProperty.m"; sourceTree = "<group>"; };
-		A66230FA1CCDB2670010EDBD /* SmallTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallTools.h; sourceTree = "<group>"; };
-		A66230FB1CCDB2670010EDBD /* SmallTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallTools.m; sourceTree = "<group>"; };
 		A66231001CCDB92E0010EDBD /* CYMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYMainController.h; path = VC/CYMainController.h; sourceTree = "<group>"; };
 		A66231011CCDB92E0010EDBD /* CYMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYMainController.m; path = VC/CYMainController.m; sourceTree = "<group>"; };
-		A66231031CCDBA9D0010EDBD /* UIView+SHCZExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SHCZExt.h"; sourceTree = "<group>"; };
-		A66231041CCDBA9D0010EDBD /* UIView+SHCZExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SHCZExt.m"; sourceTree = "<group>"; };
 		A662314A1CCE25910010EDBD /* CYNewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYNewsVC.h; path = VC/CYNewsVC.h; sourceTree = "<group>"; };
 		A662314B1CCE25910010EDBD /* CYNewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYNewsVC.m; path = VC/CYNewsVC.m; sourceTree = "<group>"; };
 		A662778D1CD7827E00E70D05 /* ContacterList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContacterList.plist; sourceTree = "<group>"; };
-		A66277921CD78F5000E70D05 /* ContacterListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContacterListModel.h; sourceTree = "<group>"; };
-		A66277931CD78F5000E70D05 /* ContacterListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContacterListModel.m; sourceTree = "<group>"; };
 		A66277971CD79E4700E70D05 /* ContacterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContacterCell.h; path = views/ContacterCell.h; sourceTree = "<group>"; };
 		A66277981CD79E4700E70D05 /* ContacterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContacterCell.m; path = views/ContacterCell.m; sourceTree = "<group>"; };
 		A671E0D31CCD038B00B0F047 /* QQDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,8 +115,6 @@
 		A6734FBF1CD7AA30000FDFFD /* DirectoryGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectoryGroup.m; path = Model/DirectoryGroup.m; sourceTree = "<group>"; };
 		A679B54A1CD0554300302EBD /* CYDynamicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYDynamicVC.h; path = VC/CYDynamicVC.h; sourceTree = "<group>"; };
 		A679B54B1CD0554300302EBD /* CYDynamicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYDynamicVC.m; path = VC/CYDynamicVC.m; sourceTree = "<group>"; };
-		A679B54E1CD0559700302EBD /* CYContacterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYContacterVC.h; sourceTree = "<group>"; };
-		A679B54F1CD0559700302EBD /* CYContacterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYContacterVC.m; sourceTree = "<group>"; };
 		A679B5541CD07ED700302EBD /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuButton.h; path = views/MenuButton.h; sourceTree = "<group>"; };
 		A679B5551CD07ED700302EBD /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuButton.m; path = views/MenuButton.m; sourceTree = "<group>"; };
 		A679B5571CD0FD5300302EBD /* NewsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsList.plist; sourceTree = "<group>"; };
@@ -188,6 +188,10 @@
 		A605F7E11CCF86C0003C37C0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A64DB16E1CD9AE5C004FD2A4 /* SmallTools.h */,
+				A64DB16F1CD9AE5C004FD2A4 /* SmallTools.m */,
+				A64DB1701CD9AE5C004FD2A4 /* UIView+SHCZExt.h */,
+				A64DB1711CD9AE5C004FD2A4 /* UIView+SHCZExt.m */,
 				A605F7E51CCF86DE003C37C0 /* MeunManager */,
 				A679B5571CD0FD5300302EBD /* NewsList.plist */,
 				A662778D1CD7827E00E70D05 /* ContacterList.plist */,
@@ -219,14 +223,14 @@
 			children = (
 				A662314A1CCE25910010EDBD /* CYNewsVC.h */,
 				A662314B1CCE25910010EDBD /* CYNewsVC.m */,
-				A6530D591CD1B71600374EB8 /* NewsCell.h */,
-				A6530D5A1CD1B71600374EB8 /* NewsCell.m */,
+				A64DB1621CD9AE04004FD2A4 /* NewsCell.h */,
+				A64DB1631CD9AE04004FD2A4 /* NewsCell.m */,
 				A6530D561CD1B2F700374EB8 /* NewsListModel.h */,
 				A6530D571CD1B2F700374EB8 /* NewsListModel.m */,
 				A6530D5F1CD1D87100374EB8 /* WHC_BadgeView.h */,
 				A6530D601CD1D87100374EB8 /* WHC_BadgeView.m */,
-				A6530D651CD1D9F000374EB8 /* UIView+WHC_ViewProperty.h */,
-				A6530D661CD1D9F000374EB8 /* UIView+WHC_ViewProperty.m */,
+				A64DB1651CD9AE1E004FD2A4 /* UIView+WHC_ViewProperty.h */,
+				A64DB1661CD9AE1E004FD2A4 /* UIView+WHC_ViewProperty.m */,
 			);
 			name = newsVC;
 			sourceTree = "<group>";
@@ -268,10 +272,6 @@
 				A66231451CCE250F0010EDBD /* mainVC */,
 				A671E1101CCD1AB500B0F047 /* CYNavigationController.h */,
 				A671E1111CCD1AB500B0F047 /* CYNavigationController.m */,
-				A66230FA1CCDB2670010EDBD /* SmallTools.h */,
-				A66230FB1CCDB2670010EDBD /* SmallTools.m */,
-				A66231031CCDBA9D0010EDBD /* UIView+SHCZExt.h */,
-				A66231041CCDBA9D0010EDBD /* UIView+SHCZExt.m */,
 				A671E0E21CCD038B00B0F047 /* Assets.xcassets */,
 				A671E0E41CCD038B00B0F047 /* LaunchScreen.storyboard */,
 				A671E0E71CCD038B00B0F047 /* Info.plist */,
@@ -318,16 +318,16 @@
 		A679B54D1CD0558800302EBD /* Contacter */ = {
 			isa = PBXGroup;
 			children = (
-				A679B54E1CD0559700302EBD /* CYContacterVC.h */,
-				A679B54F1CD0559700302EBD /* CYContacterVC.m */,
+				A64DB1741CD9AF0E004FD2A4 /* CYContacterVC.h */,
+				A64DB1751CD9AF0E004FD2A4 /* CYContacterVC.m */,
 				A6440ED71CD83B3C00750D64 /* HeadView.h */,
 				A6440ED81CD83B3C00750D64 /* HeadView.m */,
 				A66277971CD79E4700E70D05 /* ContacterCell.h */,
 				A66277981CD79E4700E70D05 /* ContacterCell.m */,
 				A6734FBE1CD7AA30000FDFFD /* DirectoryGroup.h */,
 				A6734FBF1CD7AA30000FDFFD /* DirectoryGroup.m */,
-				A66277921CD78F5000E70D05 /* ContacterListModel.h */,
-				A66277931CD78F5000E70D05 /* ContacterListModel.m */,
+				A64DB16B1CD9AE45004FD2A4 /* ContacterListModel.h */,
+				A64DB16C1CD9AE45004FD2A4 /* ContacterListModel.m */,
 			);
 			name = Contacter;
 			sourceTree = "<group>";
@@ -519,26 +519,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64DB1731CD9AE5C004FD2A4 /* UIView+SHCZExt.m in Sources */,
 				A6734FC01CD7AA30000FDFFD /* DirectoryGroup.m in Sources */,
 				A66231021CCDB92E0010EDBD /* CYMainController.m in Sources */,
 				A605F7E81CCF8743003C37C0 /* MMExampleDrawerVisualStateManager.m in Sources */,
-				A679B5501CD0559700302EBD /* CYContacterVC.m in Sources */,
-				A66231051CCDBA9D0010EDBD /* UIView+SHCZExt.m in Sources */,
 				A6530D581CD1B2F700374EB8 /* NewsListModel.m in Sources */,
 				A6530D611CD1D87100374EB8 /* WHC_BadgeView.m in Sources */,
-				A66277941CD78F5000E70D05 /* ContacterListModel.m in Sources */,
-				A6530D5B1CD1B71600374EB8 /* NewsCell.m in Sources */,
+				A64DB1761CD9AF0E004FD2A4 /* CYContacterVC.m in Sources */,
+				A64DB1641CD9AE04004FD2A4 /* NewsCell.m in Sources */,
 				A671E0DB1CCD038B00B0F047 /* AppDelegate.m in Sources */,
 				A6440ED91CD83B3C00750D64 /* HeadView.m in Sources */,
 				A66277991CD79E4700E70D05 /* ContacterCell.m in Sources */,
 				A605F7DC1CCF862F003C37C0 /* CircularLayer.m in Sources */,
-				A66230FC1CCDB2670010EDBD /* SmallTools.m in Sources */,
+				A64DB1721CD9AE5C004FD2A4 /* SmallTools.m in Sources */,
 				A679B5561CD07ED700302EBD /* MenuButton.m in Sources */,
 				A64986261CCEF1AD008C3B10 /* TransparentView.m in Sources */,
 				A679B54C1CD0554300302EBD /* CYDynamicVC.m in Sources */,
+				A64DB16D1CD9AE45004FD2A4 /* ContacterListModel.m in Sources */,
 				A671E0D81CCD038B00B0F047 /* main.m in Sources */,
+				A64DB1671CD9AE1E004FD2A4 /* UIView+WHC_ViewProperty.m in Sources */,
 				A671E1121CCD1AB500B0F047 /* CYNavigationController.m in Sources */,
-				A6530D671CD1D9F000374EB8 /* UIView+WHC_ViewProperty.m in Sources */,
 				A662314C1CCE25910010EDBD /* CYNewsVC.m in Sources */,
 				A605F7E01CCF866A003C37C0 /* LeftMenuViewController.m in Sources */,
 			);
