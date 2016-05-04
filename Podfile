@@ -1,0 +1,6 @@
+platform:ios,'8.0'
+pod 'Masonry'
+pod 'MJExtension'
+pod 'NSDictionary+Accessors'
+pod 'MMDrawerController'
+pod 'MJRefresh'

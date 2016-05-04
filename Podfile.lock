@@ -1,0 +1,33 @@
+PODS:
+  - Masonry (1.0.0)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - NSDictionary+Accessors (1.0.0)
+
+DEPENDENCIES:
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - MMDrawerController
+  - NSDictionary+Accessors
+
+SPEC CHECKSUMS:
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  NSDictionary+Accessors: 5c453c028da416525428c938602c7c96704a9bbc
+
+COCOAPODS: 0.39.0

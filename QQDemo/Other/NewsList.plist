@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nickname</key>
+		<string>死党</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_8</string>
+		<key>time</key>
+		<string>下午7:20</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>1号</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_0</string>
+		<key>time</key>
+		<string>下午7:13</string>
+		<key>messageNumber</key>
+		<string>34</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>2号</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_1</string>
+		<key>time</key>
+		<string>下午7:10</string>
+		<key>messageNumber</key>
+		<string>52</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>6号</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_5</string>
+		<key>time</key>
+		<string>下午6:07</string>
+		<key>messageNumber</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>5号</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_4</string>
+		<key>time</key>
+		<string>下午6:03</string>
+		<key>messageNumber</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>3号</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_2</string>
+		<key>time</key>
+		<string>下午5:45</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>4号</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_3</string>
+		<key>time</key>
+		<string>下午3:11</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>7号</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_6</string>
+		<key>time</key>
+		<string>昨天11:56</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>我大爷...</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_7</string>
+		<key>time</key>
+		<string>昨天12:54</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>albb</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_9</string>
+		<key>time</key>
+		<string>星期三</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>qq</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_10</string>
+		<key>time</key>
+		<string>星期二</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>hao</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_11</string>
+		<key>time</key>
+		<string>星期一</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>nickname</key>
+		<string>傻瓜</string>
+		<key>message</key>
+		<string>消息 测试</string>
+		<key>imageName</key>
+		<string>head_portrait_12</string>
+		<key>time</key>
+		<string>星期一</string>
+		<key>messageNumber</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>
